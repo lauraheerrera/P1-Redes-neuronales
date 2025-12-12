@@ -65,5 +65,5 @@ def clean_and_split_dataset(download_path, output_path, val_ratio=0.2, seed=42):
 
 if __name__ == "__main__":
     download_path = kagglehub.dataset_download("puneet6060/intel-image-classification")
-    output_path = r"C:\Users\laura\OneDrive\Desktop\P1-Redes-neuronales\Dataset"
+    output_path = r"\Dataset"
     clean_and_split_dataset(download_path, output_path, val_ratio=0.2)
